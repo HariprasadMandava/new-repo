@@ -1,0 +1,12 @@
+---
+- name: variables
+  hosts: localhost
+  become: true
+  gather_facts: no
+  tasks:
+   - name: name1
+     debug:
+       msg: "my name is {{my_vars}}"
+     vars:
+      my_vars: Hariprasad Mandava
+   

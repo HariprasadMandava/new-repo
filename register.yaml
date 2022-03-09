@@ -1,0 +1,14 @@
+---
+ - hosts: localhost
+   tasks:
+    - name: System uptime
+      command: uptime
+      register: uptime
+    - name: System Hostname
+      command: hostname
+      register: host
+    - debug: var={{item}}
+      loop: 
+        - uptime.stdout
+        - host.stdout
+

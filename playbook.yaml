@@ -1,0 +1,6 @@
+---
+ - name: Installing Httpd
+   hosts: localhost
+   become: true
+   roles:
+        -  ../roles/httpd

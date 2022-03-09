@@ -1,0 +1,30 @@
+stateinformation-south:
+ - state : Andhrapradesh
+   capital : Amaravathi
+   city : Vijayawada
+   
+ - state : Telengana
+   city : Hyderabad
+   capital: Hyderabad
+
+stateinformation-north:
+ - state : Uttarpradesh
+   capital : Lucknow
+   city : Noida
+  
+ - state : Madhyapradesh
+   capital : Bhopal
+   city : Lucknow
+
+stateinformation:
+
+ - state : Uttarpradesh
+   capital : Lucknow
+   city : Noida
+  
+ - state : Madhyapradesh
+   capital : Bhopal
+   city : Indore
+
+
+   
