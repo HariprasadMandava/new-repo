@@ -1,0 +1,6 @@
+---
+ - hosts: localhost
+   become: true
+   tasks:
+    - name: create directory using ansible palybook
+      file: path=/temp/testdirt state=directory

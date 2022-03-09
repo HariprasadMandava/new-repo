@@ -1,0 +1,12 @@
+---
+ - name: Install Httpd Package
+   hosts: localhost
+   tasks:
+    - name: Httpd package Installation
+      yum:
+        name: httpd
+        state: latest
+    - name: message
+      debug:
+         msg: "package installed successfully"   
+
