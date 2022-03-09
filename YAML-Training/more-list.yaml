@@ -1,0 +1,19 @@
+stateinformation-south:
+ - state : Andhrapradesh
+   capital : Amaravathi
+   city : Vijayawada
+   ChiefMinister:
+   - NaraChandraBabuNaidu
+   - 70Y
+   
+ - state : Telengana
+   city : Hyderabad
+   capital: Hyderabad
+   ChiefMinister:
+    - K.chandrasekhar Rao
+    - 70Y
+ - state : Tamilnadu
+   city : Chennai
+   capital: Mungambakam
+   ChiefMinister: [M.K.Stalin,65Y]
+   

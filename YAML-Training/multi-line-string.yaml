@@ -1,0 +1,10 @@
+multilinestring : |
+  This is my first yaml practise session.
+  Thank you mohit for your wonderful explanation.
+  onec again Thankyou.......
+  
+  
+singlelinestring: >
+  This is my first yaml practise session.
+  Thank you mohit for your wonderful explanation.
+  onec again Thankyou.......
