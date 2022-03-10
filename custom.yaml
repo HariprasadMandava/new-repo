@@ -1,0 +1,4 @@
+[general]
+name = httpd
+service = httpd
+state = latest
