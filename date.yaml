@@ -5,3 +5,4 @@
     - name: Date Example in Ansible
       debug:
        var=ansible_date_time.date
+Hi Everyone!!!

@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  become: no
+  tasks:
+     - name: appending data
+       lineinfile:
+              path: /root/Hari/date.yaml
+              line: Hi Everyone!!!
