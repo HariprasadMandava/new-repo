@@ -5,4 +5,4 @@
      - name: appending data
        lineinfile:
               path: /root/Hari/date.yaml
-              line: Hi Everyone!!!
+              line: 'Hi Everyone!!!'
