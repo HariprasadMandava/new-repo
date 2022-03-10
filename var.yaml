@@ -8,5 +8,5 @@
      debug:
        msg: "my name is {{my_vars}}"
      vars:
-      my_vars: Hariprasad Mandava
+      my_vars: Hariprasad Mandava!
    
